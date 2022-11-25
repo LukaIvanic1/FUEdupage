@@ -20,36 +20,60 @@
 
 <body>
     <div align="center" className='container'>
-        <p className='element' id='trenutnoVrijeme' style="color: white;"></p>
+        <h1 className='element' id='trenutnoVrijeme' style="color: white;"></h1>
 
     </div>
 
     <div align="center">
-        <p id="vrijemeDo" style="color: white;">NEMA ŠKOLE</p>
-        <p id="jaja" style="color: white;">NEMA ŠKOLE</p>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" id="poggers"></div>
+        <h3 id="vrijemeDo" style="color: white;"></h3>
+        <h4 id="jaja" style="color: white;"></h4>
+        <div class="progress" style="width: 90%;">
+            <div class="progress-bar" role="progressbar" style="width: 50%;color: black; font-size: 120%;"
+                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" id="poggers"></div>
         </div>
     </div>
     <br>
-    <hr style = "height: 3px;color:whitesmoke;">
-	<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
+    <div align="center">
+        <hr style="height: 10px;color:whitesmoke;width: 90%;">
+
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Razred
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#" VALUE = "1">1.A</a></li>
-          <li><a class="dropdown-item" href="#" VALUE = "2">2.A</a></li>
-          <li><a class="dropdown-item" href="#" VALUE = "3">3.A</a></li>
+
+            <li><button class="dropdown-item" href="#" VALUE="1" id="raz1" onclick="chan(0)">1.A</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="2" id="raz2" onclick="chan(1)">2.A</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="3" id="raz3" onclick="chan(2)">3.A</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="4" id="raz3" onclick="chan(3)">4.A</a></li>
+
+            <li><button class="dropdown-item" href="#" VALUE="4" id="raz3" onclick="chan(11)">1.B</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="5" id="raz3" onclick="chan(5)">2.B</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="1" id="raz1" onclick="chan(6)">3.B</a></li>
+
+            <li><button class="dropdown-item" href="#" VALUE="2" id="raz2" onclick="chan(7)">1.C</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="3" id="raz3" onclick="chan(8)">2.C</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="4" id="raz3" onclick="chan(9)">3.C</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="5" id="raz3" onclick="chan(10)">4.C</a></li>
+
+            <li><button class="dropdown-item" href="#" VALUE="5" id="raz3" onclick="chan(4)">1.D</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="1" id="raz1" onclick="chan(12)">2.D</a></li>
+            <li><button class="dropdown-item" href="#" VALUE="2" id="raz2" onclick="chan(13)">3.D</a></li>
+
+
+
+
+
         </ul>
     </div>
 
+    <br>
+    <div align="center">
 
-    <div>
-        
-        
-        <img>
+
+        <img width="50%" height="50%" src="rasporedi/image0.jpg" id="rapored">
     </div>
 
 

@@ -2,6 +2,8 @@ let y = document.getElementById("vrijemeDo");
 let jajce = document.getElementById("jaja");
 let progresbar = document.getElementById("poggers");
 let dropdown = document.getElementById("dropdownMenuButton1");
+let image = document.getElementById("rapored");
+
 
 function mstomands(millis) {
     var minutes = Math.floor(millis / 60000);
@@ -55,11 +57,11 @@ let raspored = [
 ] //declaration of the list schedule
 
 var pictureList = [
-    "rasporedi\\image0.jpg",
-    "rasporedi\\image1.jpg",
-    "rasporedi\\image2.jpg",
-    "rasporedi\\image3.jpg",
-    "rasporedi\\image4.jpg", 
+    "rasporedi\image0.jpg",
+    "rasporedi\image1.jpg",
+    "rasporedi\image2.jpg",
+    "rasporedi\image3.jpg",
+    "rasporedi\image4.jpg", 
 ];
 
 function rgbt() {
@@ -114,14 +116,11 @@ function jebac() {
 
 }
 
+function chan(i){
+    document.getElementById("rapored").src = "rasporedi/image" + i +".jpg";
+}
 
 
 
-
-
-
-
-
-
-setInterval(jebac, 50);
+setInterval(jebac,100);
 
