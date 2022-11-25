@@ -1,5 +1,5 @@
 body{
-    background-color: darkslategrey;
+    background-color: rgb(0, 60, 151);
 }
 
 .progress-bar { 
@@ -36,4 +36,9 @@ body{
       0%{background-position:0% 82%}
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
+  }
+
+  .dropdown {
+    left: 2%;
+    
   }
